@@ -1,0 +1,17 @@
+{%- assign p = include.product -%}
+<article class="product" data-category="{{ p.category }}" data-search="{{ p.name | downcase }} {{ p.category | downcase }} {{ p.description | downcase | escape }} {{ p.fabric | downcase }}">
+  <div class="product__media">
+    <img src="{{ p.image | relative_url }}" alt="{{ p.name }} – {{ p.category }} manufacturer" loading="lazy">
+  </div>
+  <div class="product__body">
+    <span class="product__cat">{{ p.category }}</span>
+    <h3 class="product__name">{{ p.name }}</h3>
+    <p class="product__desc">{{ p.summary }}</p>
+    <dl class="product__meta">
+      {%- if p.moq %}<div><dt>MOQ</dt><dd>{{ p.moq }} pcs</dd></div>{% endif -%}
+      {%- if p.fabric %}<div><dt>Fabric</dt><dd>{{ p.fabric }}</dd></div>{% endif -%}
+      {%- if p.gsm %}<div><dt>Weight</dt><dd>{{ p.gsm }}</dd></div>{% endif -%}
+    </dl>
+    <a class="link-arrow" href="{{ '/quote/' | relative_url }}?product={{ p.name | url_encode }}">Request a quote <span aria-hidden="true">→</span></a>
+  </div>
+</article>

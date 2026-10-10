@@ -1,0 +1,82 @@
+---
+layout: default
+title: Request a Quote
+permalink: /quote/
+description: Request a wholesale quote for OEM & private-label sportswear from Al Asmat, Sialkot. Our export team replies within 24 hours.
+---
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Request a quote</p>
+    <h1>Get custom pricing for your order.</h1>
+    <p class="lead">For bulk orders, OEM &amp; private label. Our export team replies within 24 hours.</p>
+  </div>
+</section>
+
+<section class="section section--flush">
+  <div class="container quote-grid">
+    <form class="form" id="quote-form"
+      {% if site.formspree_id != "" %}action="https://formspree.io/f/{{ site.formspree_id }}" method="POST"{% endif %}
+      data-whatsapp="{{ site.company.whatsapp }}" data-email="{{ site.company.email }}">
+      <div class="form__row">
+        <label>Full name *<input name="name" type="text" required autocomplete="name"></label>
+        <label>Company name *<input name="company" type="text" required autocomplete="organization"></label>
+      </div>
+      <div class="form__row">
+        <label>Business email *<input name="email" type="email" required autocomplete="email"></label>
+        <label>Phone / WhatsApp<input name="phone" type="tel" autocomplete="tel"></label>
+      </div>
+      <div class="form__row">
+        <label>Business type *
+          <select name="business_type" required>
+            <option value="">Select business type</option>
+            <option>Sports Club / Team</option>
+            <option>Distributor / Wholesaler</option>
+            <option>Retailer</option>
+            <option>Sports Academy</option>
+            <option>Corporate / Promotional Buyer</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Country *<input name="country" type="text" required placeholder="e.g. United Kingdom" autocomplete="country-name"></label>
+      </div>
+      <div class="form__row">
+        <label>Product interest
+          <input name="product" type="text" list="product-list" placeholder="e.g. Custom Golf Polo Shirt">
+          <datalist id="product-list">
+            {% for c in site.data.categories %}<option value="{{ c.name }}">{% endfor %}
+            {% for p in site.data.products %}<option value="{{ p.name }}">{% endfor %}
+            <option value="Private Label / OEM">
+          </datalist>
+        </label>
+        <label>Estimated quantity *<input name="quantity" type="text" required placeholder="e.g. 200 pcs, 500–1000 pcs"></label>
+      </div>
+      <label>Message
+        <textarea name="message" rows="5" placeholder="Tell us about fabrics, printing method, logo placement, sizes and target delivery date."></textarea>
+      </label>
+      <div class="form__actions">
+        {% if site.formspree_id != "" %}
+        <button class="btn btn--primary" type="submit">Send request</button>
+        <button class="btn btn--ghost" type="button" data-send="whatsapp">Send via WhatsApp</button>
+        {% else %}
+        <button class="btn btn--primary" type="submit" data-send="email">Send by email</button>
+        <button class="btn btn--ghost" type="button" data-send="whatsapp">Send via WhatsApp</button>
+        {% endif %}
+      </div>
+      <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <aside class="quote-aside">
+      <h3>What to include</h3>
+      <ul class="checklist checklist--compact">
+        <li>Product type &amp; quantity</li>
+        <li>Fabric &amp; weight (150–300 GSM)</li>
+        <li>Printing method — sublimation, screen print, heat transfer or embroidery</li>
+        <li>Logo placement &amp; colors</li>
+        <li>Target country &amp; delivery date</li>
+      </ul>
+      <hr>
+      <p class="muted small">Typical lead time: 3–4 weeks depending on order size and customization. We ship worldwide via DHL, FedEx and sea freight.</p>
+      <p class="small"><a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a><br><a href="tel:{{ site.company.phone_raw }}">{{ site.company.phone }}</a></p>
+    </aside>
+  </div>
+</section>

@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "p1",
+    "name": "Pro Cricket Jersey",
+    "category": "Cricket Kit",
+    "summary": "Premium sublimated cricket jersey with moisture-wicking fabric. Designed for maximum comfort and performance during long matches. Available in custom team colors with logo printing.",
+    "description": "Premium sublimated cricket jersey with moisture-wicking fabric. Designed for maximum comfort and performance during long matches. Available in custom team colors with logo printing.",
+    "image": "/assets/images/products/cricket-jersey.jpg",
+    "featured": true,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "White",
+      "Blue",
+      "Green",
+      "Navy"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Name Printing",
+      "Number Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p5",
+    "name": "Cricket Trouser",
+    "category": "Cricket Kit",
+    "summary": "Professional cricket trousers with elastic waistband and reinforced knees. Comfortable fit for all-day play.",
+    "description": "Professional cricket trousers with elastic waistband and reinforced knees. Comfortable fit for all-day play.",
+    "image": "/assets/images/products/cricket-trouser.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "White",
+      "Cream",
+      "Off-White"
+    ],
+    "customization": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "id": "p13",
+    "name": "Cricket Sweater",
+    "category": "Cricket Kit",
+    "summary": "Classic cable-knit cricket sweater with V-neck design. Ideal for cooler match days. Custom colors and trims available.",
+    "description": "Classic cable-knit cricket sweater with V-neck design. Ideal for cooler match days. Custom colors and trims available.",
+    "image": "/assets/images/products/cricket-sweater.jpg",
+    "featured": false,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "White/Navy",
+      "White/Green",
+      "Cream/Maroon"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p14",
+    "name": "Cricket Cap",
+    "category": "Cricket Kit",
+    "summary": "Traditional baggy cricket cap in premium wool with embroidered team crest. Available in all team colors.",
+    "description": "Traditional baggy cricket cap in premium wool with embroidered team crest. Available in all team colors.",
+    "image": "/assets/images/products/cricket-cap.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "S/M",
+      "L/XL"
+    ],
+    "colors": [
+      "Navy",
+      "Green",
+      "Maroon",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Elite Football Kit",
+    "category": "Football Kit",
+    "summary": "Complete football kit including jersey and shorts. Lightweight polyester with sublimation printing. Perfect for clubs, academies, and national teams.",
+    "description": "Complete football kit including jersey and shorts. Lightweight polyester with sublimation printing. Perfect for clubs, academies, and national teams.",
+    "image": "/assets/images/products/football-kit.jpg",
+    "featured": true,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Blue/White",
+      "Red/Black",
+      "Yellow/Green",
+      "All Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Name Printing",
+      "Number Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p11",
+    "name": "Football Shorts",
+    "category": "Football Kit",
+    "summary": "Professional football shorts with elastic waistband and drawstring. Lightweight and breathable for peak performance.",
+    "description": "Professional football shorts with elastic waistband and drawstring. Lightweight and breathable for peak performance.",
+    "image": "/assets/images/cat-football.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Navy",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p15",
+    "name": "Football Socks",
+    "category": "Football Kit",
+    "summary": "Professional knee-high football socks with cushioned sole and arch support. Sublimation or knitted designs available.",
+    "description": "Professional knee-high football socks with cushioned sole and arch support. Sublimation or knitted designs available.",
+    "image": "/assets/images/products/football-socks.jpg",
+    "featured": false,
+    "moq": 200,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Navy",
+      "Red",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p16",
+    "name": "Goalkeeper Jersey",
+    "category": "Football Kit",
+    "summary": "Padded goalkeeper jersey with elbow protection. Vibrant sublimation designs for maximum visibility.",
+    "description": "Padded goalkeeper jersey with elbow protection. Vibrant sublimation designs for maximum visibility.",
+    "image": "/assets/images/products/goalkeeper-jersey.jpg",
+    "featured": false,
+    "moq": 30,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Neon Yellow",
+      "Orange",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Name Printing",
+      "Number Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p17",
+    "name": "Football Training Bib",
+    "category": "Football Kit",
+    "summary": "Lightweight mesh training bibs for practice sessions. Available in multiple color options with logo printing.",
+    "description": "Lightweight mesh training bibs for practice sessions. Available in multiple color options with logo printing.",
+    "image": "/assets/images/products/training-bib.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "Youth",
+      "Adult"
+    ],
+    "colors": [
+      "Red",
+      "Blue",
+      "Yellow",
+      "Green",
+      "Orange"
+    ],
+    "customization": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Rugby Pro Jersey",
+    "category": "Rugby Kit",
+    "summary": "Heavy-duty rugby jersey with reinforced stitching. Designed to withstand the toughest matches. Sublimation printing for vibrant, long-lasting colors.",
+    "description": "Heavy-duty rugby jersey with reinforced stitching. Designed to withstand the toughest matches. Sublimation printing for vibrant, long-lasting colors.",
+    "image": "/assets/images/products/rugby-jersey.jpg",
+    "featured": true,
+    "moq": 30,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Green",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Name Printing",
+      "Number Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p12",
+    "name": "Rugby Shorts",
+    "category": "Rugby Kit",
+    "summary": "Heavy-duty rugby shorts with reinforced seams. Designed for durability and comfort during intense play.",
+    "description": "Heavy-duty rugby shorts with reinforced seams. Designed for durability and comfort during intense play.",
+    "image": "/assets/images/products/rugby-shorts.jpg",
+    "featured": false,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "White",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p18",
+    "name": "Rugby Socks",
+    "category": "Rugby Kit",
+    "summary": "Reinforced rugby socks with extra cushioning. Designed to stay up during the most physical matches.",
+    "description": "Reinforced rugby socks with extra cushioning. Designed to stay up during the most physical matches.",
+    "image": "/assets/images/products/rugby-socks.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "White",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p6",
+    "name": "Netball Dress",
+    "category": "Netball Kit",
+    "summary": "Stylish and functional netball dress with built-in shorts. Sublimation printed for vibrant team designs.",
+    "description": "Stylish and functional netball dress with built-in shorts. Sublimation printed for vibrant team designs.",
+    "image": "/assets/images/products/netball-dress.jpg",
+    "featured": true,
+    "moq": 30,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Custom Design"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Name Printing",
+      "Number Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p19",
+    "name": "Netball Skirt",
+    "category": "Netball Kit",
+    "summary": "Pleated netball skirt with built-in compression shorts. Allows unrestricted movement during play.",
+    "description": "Pleated netball skirt with built-in compression shorts. Allows unrestricted movement during play.",
+    "image": "/assets/images/products/netball-skirt.jpg",
+    "featured": false,
+    "moq": 30,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p20",
+    "name": "Netball Bodysuit",
+    "category": "Netball Kit",
+    "summary": "One-piece netball bodysuit in stretchy performance fabric. Sublimation printed for custom team designs.",
+    "description": "One-piece netball bodysuit in stretchy performance fabric. Sublimation printed for custom team designs.",
+    "image": "/assets/images/products/netball-bodysuit.jpg",
+    "featured": false,
+    "moq": 30,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Custom Design"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Name Printing",
+      "Number Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p7",
+    "name": "Custom Golf Polo Shirt",
+    "category": "Golf Kit",
+    "summary": "Breathable piqué golf polo built for OEM & private-label programs.",
+    "description": "Premium piqué golf polo engineered for club, resort and corporate golf programs. Moisture-wicking, anti-pilling knit with a clean 3-button placket, self-fabric collar and side vents. Available in sublimation, embroidery or screen-printed branding with fully custom colorways.",
+    "image": "/assets/images/products/golf-polo.jpg",
+    "featured": true,
+    "moq": 10,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "colors": [
+      "White",
+      "Navy",
+      "Sky Blue",
+      "Black",
+      "Custom Pantone"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery",
+      "Name Printing",
+      "Color Customization",
+      "Custom Neck Label"
+    ],
+    "fabric": "Piqué / Micro Dry-Fit",
+    "gsm": "160–220 GSM"
+  },
+  {
+    "id": "p21",
+    "name": "Golf Trouser",
+    "category": "Golf Kit",
+    "summary": "4-way stretch golf trouser with water-repellent finish.",
+    "description": "Stretch golf trousers with flat front and belt loops. Water-repellent finish for all-weather play.",
+    "image": "/assets/images/products/golf-trouser.jpg",
+    "featured": false,
+    "moq": 10,
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Khaki",
+      "Grey"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery"
+    ],
+    "fabric": "Stretch Twill",
+    "gsm": "200–240 GSM"
+  },
+  {
+    "id": "p22",
+    "name": "Golf Vest",
+    "category": "Golf Kit",
+    "summary": "Lightweight layering vest with contrast tipping.",
+    "description": "Lightweight knitted golf vest for layering. V-neck design with contrast tipping. Embroidered logo available.",
+    "image": "/assets/images/products/golf-vest.jpg",
+    "featured": false,
+    "moq": 10,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Grey",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery",
+      "Color Customization"
+    ],
+    "fabric": "Knitted Poly Blend",
+    "gsm": "220–260 GSM"
+  },
+  {
+    "id": "g1",
+    "name": "Golf Performance T-Shirt",
+    "category": "Golf Kit",
+    "summary": "Ultra-light dry-fit tee for practice rounds and academies.",
+    "description": "Ultra-light micro dry-fit golf t-shirt with mesh side panels and flatlock seams. Ideal for practice rounds, academies and golf retail lines. Full sublimation or embroidery branding available.",
+    "image": "/assets/images/products/golf-tshirt.jpg",
+    "featured": false,
+    "moq": 10,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "White",
+      "Grey Melange",
+      "Navy",
+      "Custom Pantone"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization",
+      "Custom Neck Label"
+    ],
+    "fabric": "Micro Dry-Fit",
+    "gsm": "140–160 GSM"
+  },
+  {
+    "id": "g2",
+    "name": "Golf Shorts",
+    "category": "Golf Kit",
+    "summary": "Tailored stretch shorts with zip pockets and belt loops.",
+    "description": "Tailored golf shorts in 4-way stretch twill with zip side pockets, belt loops and a moisture-managing waistband lining. Water-repellent finish available on request.",
+    "image": "/assets/images/products/golf-shorts.jpg",
+    "featured": false,
+    "moq": 10,
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Stone",
+      "White",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery"
+    ],
+    "fabric": "Stretch Twill",
+    "gsm": "200–220 GSM"
+  },
+  {
+    "id": "g3",
+    "name": "Ladies Golf Skort",
+    "category": "Golf Kit",
+    "summary": "Ladies skort with built-in compression short.",
+    "description": "Ladies golf skort with a built-in compression short, hidden ball pocket and soft elasticated waistband. Designed for ladies club and resort golf programs.",
+    "image": "/assets/images/products/golf-skort.jpg",
+    "featured": false,
+    "moq": 10,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "White",
+      "Custom Pantone"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery",
+      "Color Customization"
+    ],
+    "fabric": "Poly-Lycra Stretch",
+    "gsm": "180–200 GSM"
+  },
+  {
+    "id": "g4",
+    "name": "Golf Windbreaker Jacket",
+    "category": "Golf Kit",
+    "summary": "Wind & shower resistant jacket with full-zip front.",
+    "description": "Wind and shower-resistant golf jacket with a full-zip front, elasticated cuffs and a lightweight packable body. Optional zip-off sleeves for on-course versatility.",
+    "image": "/assets/images/products/golf-jacket.jpg",
+    "featured": false,
+    "moq": 10,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "White",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery",
+      "Color Customization"
+    ],
+    "fabric": "Downproof / Softshell",
+    "gsm": "240–280 GSM"
+  },
+  {
+    "id": "g5",
+    "name": "Golf Cap",
+    "category": "Golf Kit",
+    "summary": "6-panel performance cap with 3D embroidered crest.",
+    "description": "Structured 6-panel golf cap with pre-curved brim, moisture-absorbing sweatband and adjustable closure. Perfect for 3D embroidered club crests and sponsor branding.",
+    "image": "/assets/images/products/golf-cap.jpg",
+    "featured": false,
+    "moq": 10,
+    "sizes": [
+      "One Size",
+      "S/M",
+      "L/XL"
+    ],
+    "colors": [
+      "White",
+      "Navy",
+      "Black",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery"
+    ],
+    "fabric": "Cotton Twill / Performance Poly",
+    "gsm": "220–260 GSM"
+  },
+  {
+    "id": "g6",
+    "name": "Complete Golf Kit Set",
+    "category": "Golf Kit",
+    "summary": "Polo + trouser/short + cap bundled as one branded kit.",
+    "description": "A complete branded golf kit — performance polo, tailored trouser or short, and matching cap — produced as one coordinated package for clubs, tournaments and corporate golf days.",
+    "image": "/assets/images/products/golf-kit-set.jpg",
+    "featured": true,
+    "moq": 10,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Custom Pantone"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Embroidery",
+      "Name Printing",
+      "Color Customization",
+      "Custom Neck Label"
+    ],
+    "fabric": "Piqué + Stretch Twill",
+    "gsm": "160–240 GSM"
+  },
+  {
+    "id": "p9",
+    "name": "Handball Jersey",
+    "category": "Handball Kit",
+    "summary": "Fitted handball jersey with stretch fabric for unrestricted movement. Sublimation printed for custom team designs.",
+    "description": "Fitted handball jersey with stretch fabric for unrestricted movement. Sublimation printed for custom team designs.",
+    "image": "/assets/images/products/handball-jersey.jpg",
+    "featured": false,
+    "moq": 30,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Custom Design"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Name Printing",
+      "Number Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p23",
+    "name": "Handball Shorts",
+    "category": "Handball Kit",
+    "summary": "Lightweight handball shorts with elastic waist and inner drawcord. Sublimation printing for full custom designs.",
+    "description": "Lightweight handball shorts with elastic waist and inner drawcord. Sublimation printing for full custom designs.",
+    "image": "/assets/images/products/handball-shorts.jpg",
+    "featured": false,
+    "moq": 30,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "Performance Track Suit",
+    "category": "Active Wear",
+    "summary": "Premium track suit with jacket and pants. Ideal for warm-ups and casual wear. Available in custom designs and team colors.",
+    "description": "Premium track suit with jacket and pants. Ideal for warm-ups and casual wear. Available in custom designs and team colors.",
+    "image": "/assets/images/products/tracksuit.jpg",
+    "featured": true,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Navy/White",
+      "Black/Red",
+      "Blue/Yellow",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p24",
+    "name": "Compression Leggings",
+    "category": "Active Wear",
+    "summary": "High-performance compression leggings with flatlock seams. Moisture-wicking fabric for intense training sessions.",
+    "description": "High-performance compression leggings with flatlock seams. Moisture-wicking fabric for intense training sessions.",
+    "image": "/assets/images/products/compression-leggings.jpg",
+    "featured": false,
+    "moq": 50,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p25",
+    "name": "Training T-Shirt",
+    "category": "Active Wear",
+    "summary": "Lightweight training t-shirt with raglan sleeves and mesh ventilation panels. Quick-dry technology.",
+    "description": "Lightweight training t-shirt with raglan sleeves and mesh ventilation panels. Quick-dry technology.",
+    "image": "/assets/images/products/training-tshirt.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Black",
+      "White",
+      "Navy",
+      "Red",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p26",
+    "name": "Gym Hoodie",
+    "category": "Active Wear",
+    "summary": "Premium cotton-blend gym hoodie with kangaroo pocket. Custom screen printing and embroidery available.",
+    "description": "Premium cotton-blend gym hoodie with kangaroo pocket. Custom screen printing and embroidery available.",
+    "image": "/assets/images/products/gym-hoodie.jpg",
+    "featured": false,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Black",
+      "Grey",
+      "Navy",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p8",
+    "name": "Sports Jacket",
+    "category": "Outer Wear",
+    "summary": "Lightweight sports jacket with full zip. Water-resistant and windproof. Custom embroidery and printing available.",
+    "description": "Lightweight sports jacket with full zip. Water-resistant and windproof. Custom embroidery and printing available.",
+    "image": "/assets/images/products/sports-jacket.jpg",
+    "featured": true,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Blue",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p27",
+    "name": "Softshell Jacket",
+    "category": "Outer Wear",
+    "summary": "Three-layer softshell jacket with fleece lining. Windproof and water-resistant. Custom branding options.",
+    "description": "Three-layer softshell jacket with fleece lining. Windproof and water-resistant. Custom branding options.",
+    "image": "/assets/images/products/softshell-jacket.jpg",
+    "featured": false,
+    "moq": 30,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p28",
+    "name": "Rain Jacket",
+    "category": "Outer Wear",
+    "summary": "Fully waterproof rain jacket with taped seams and hood. Packable design for sideline and travel.",
+    "description": "Fully waterproof rain jacket with taped seams and hood. Packable design for sideline and travel.",
+    "image": "/assets/images/products/rain-jacket.jpg",
+    "featured": false,
+    "moq": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Royal Blue",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p29",
+    "name": "Team Gilet",
+    "category": "Outer Wear",
+    "summary": "Insulated team gilet with zip front and side pockets. Embroidered or printed team branding.",
+    "description": "Insulated team gilet with zip front and side pockets. Embroidered or printed team branding.",
+    "image": "/assets/images/products/team-gilet.jpg",
+    "featured": false,
+    "moq": 30,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p10",
+    "name": "Sports Cap",
+    "category": "Caps & Hats",
+    "summary": "Structured sports cap with curved brim. Embroidered logo and adjustable strap. Perfect for teams and promotional use.",
+    "description": "Structured sports cap with curved brim. Embroidered logo and adjustable strap. Perfect for teams and promotional use.",
+    "image": "/assets/images/products/sports-cap.jpg",
+    "featured": false,
+    "moq": 200,
+    "sizes": [
+      "One Size",
+      "S/M",
+      "L/XL"
+    ],
+    "colors": [
+      "Navy",
+      "White",
+      "Black",
+      "Blue",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "id": "p30",
+    "name": "Bucket Hat",
+    "category": "Caps & Hats",
+    "summary": "Cotton bucket hat with all-round brim for sun protection. Custom embroidery and sublimation printing.",
+    "description": "Cotton bucket hat with all-round brim for sun protection. Custom embroidery and sublimation printing.",
+    "image": "/assets/images/cat-caps.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "S/M",
+      "L/XL"
+    ],
+    "colors": [
+      "Navy",
+      "White",
+      "Khaki",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p31",
+    "name": "Beanie Hat",
+    "category": "Caps & Hats",
+    "summary": "Knitted beanie hat with turn-up brim. Embroidered logo patch available. Winter team headwear.",
+    "description": "Knitted beanie hat with turn-up brim. Embroidered logo patch available. Winter team headwear.",
+    "image": "/assets/images/cat-caps.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Grey",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "id": "p32",
+    "name": "Sports Bra - High Impact",
+    "category": "Bras",
+    "summary": "High-impact sports bra with encapsulation support. Moisture-wicking fabric and adjustable straps for maximum comfort during intense activity.",
+    "description": "High-impact sports bra with encapsulation support. Moisture-wicking fabric and adjustable straps for maximum comfort during intense activity.",
+    "image": "/assets/images/products/sports-bra-high.jpg",
+    "featured": true,
+    "moq": 100,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "White",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p33",
+    "name": "Sports Bra - Medium Impact",
+    "category": "Bras",
+    "summary": "Medium-impact sports bra with racerback design. Soft brushed fabric with removable padding. Ideal for yoga and training.",
+    "description": "Medium-impact sports bra with racerback design. Soft brushed fabric with removable padding. Ideal for yoga and training.",
+    "image": "/assets/images/products/sports-bra-medium.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Pink",
+      "Blue",
+      "Grey",
+      "Custom"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  },
+  {
+    "id": "p34",
+    "name": "Crop Top Bra",
+    "category": "Bras",
+    "summary": "Trendy crop-top style sports bra. Sublimation printed with custom designs. Great for fitness brands and gym wear lines.",
+    "description": "Trendy crop-top style sports bra. Sublimation printed with custom designs. Great for fitness brands and gym wear lines.",
+    "image": "/assets/images/products/crop-top-bra.jpg",
+    "featured": false,
+    "moq": 100,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Custom Design"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Color Customization"
+    ]
+  }
+]

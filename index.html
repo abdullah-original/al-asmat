@@ -1,0 +1,130 @@
+---
+layout: default
+title: Custom Sports Goods Manufacturer
+---
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow">Premium Sportswear Manufacturer in Pakistan</p>
+      <h1>Custom sportswear &amp; team uniforms for global brands.</h1>
+      <p class="lead">Based in Sialkot — the sportswear capital of the world. We manufacture high-quality custom sportswear for international brands, clubs and wholesalers.</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="{{ '/catalogue/' | relative_url }}">View Catalogue</a>
+        <a class="btn btn--ghost" href="{{ '/quote/' | relative_url }}">Request a Quote</a>
+      </div>
+    </div>
+    <figure class="hero__media">
+      <img src="{{ '/assets/images/hero-slide-1.jpg' | relative_url }}" alt="Custom sportswear manufacturing at the Al Asmat factory in Sialkot, Pakistan">
+      <figcaption>
+        <strong>50+</strong> countries shipped to — UK, Europe, USA, Australia, Middle East and beyond.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="stats" aria-label="Al Asmat manufacturing capacity in numbers">
+  <div class="container stats__grid">
+    <div><strong data-count="20">20</strong><span>+</span><p>Years experience</p></div>
+    <div><strong data-count="50000">50,000</strong><span>+</span><p>Units per month</p></div>
+    <div><strong data-count="30">30</strong><span>+</span><p>Countries served</p></div>
+    <div><strong data-count="50">50</strong><span> pcs</span><p>Minimum order</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Our categories</p>
+        <h2>A full range of performance sportswear.</h2>
+      </div>
+      <a class="link-arrow" href="{{ '/catalogue/' | relative_url }}">Browse all <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="categories">
+      {% for c in site.data.categories %}
+      <a class="category" href="{{ '/catalogue/' | relative_url }}?category={{ c.name | url_encode }}">
+        <img src="{{ c.image | relative_url }}" alt="{{ c.name }}" loading="lazy">
+        <span>{{ c.name }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Featured products</p>
+        <h2>Our most popular items, chosen by international buyers.</h2>
+      </div>
+    </div>
+    <div class="products">
+      {% assign featured = site.data.products | where: "featured", true %}
+      {% for p in featured limit: 4 %}{% include product-card.html product=p %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <figure class="split__media">
+      <img src="{{ '/assets/images/products-showcase.jpg' | relative_url }}" alt="Al Asmat product showcase" loading="lazy">
+    </figure>
+    <div>
+      <p class="eyebrow">Why Al Asmat</p>
+      <h2>From concept to delivery, we handle it all.</h2>
+      <p class="muted">Our facility in Sialkot produces premium garments with sublimation printing, embroidery and custom designs. Your vision, our expertise.</p>
+      <ul class="checklist">
+        <li><strong>Custom design</strong> Full design support from concept to production</li>
+        <li><strong>Private label</strong> Your labels, hangtags and packaging</li>
+        <li><strong>Global export</strong> Shipping to 50+ countries worldwide</li>
+        <li><strong>Quality control</strong> Checks at every stage of production</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <div>
+        <p class="eyebrow">Simple ordering process</p>
+        <h2>From first contact to delivery — we make it easy.</h2>
+      </div>
+    </div>
+    <ol class="steps">
+      <li><span>01</span><h3>Request a quote</h3><p>Tell us your requirements, quantity and customization needs.</p></li>
+      <li><span>02</span><h3>Share your design</h3><p>Send your logo, colors and design files — or let our team create it.</p></li>
+      <li><span>03</span><h3>We manufacture</h3><p>Production begins with quality checks at every stage.</p></li>
+      <li><span>04</span><h3>Receive your order</h3><p>Fast worldwide shipping with tracking from Sialkot, Pakistan.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="container trust__row">
+    <span>Verified manufacturer</span>
+    <span>ISO quality standards</span>
+    <span>Worldwide shipping</span>
+    <span>Eco-friendly fabrics</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <div>
+        <p class="eyebrow">Testimonials</p>
+        <h2>Trusted by brands and buyers worldwide.</h2>
+      </div>
+    </div>
+    <div class="quotes">
+      <blockquote><p>“Outstanding quality and reliable delivery. Al Asmat has been our go-to manufacturer for three seasons.”</p><footer>James Wilson · Cricket Club Manager, UK</footer></blockquote>
+      <blockquote><p>“The customization options are incredible. Our private label products look and feel premium.”</p><footer>Maria Santos · Sports Brand Owner, Brazil</footer></blockquote>
+      <blockquote><p>“Competitive pricing without compromising on quality. Highly recommend for bulk orders.”</p><footer>Ahmed Khan · Wholesale Buyer, UAE</footer></blockquote>
+    </div>
+  </div>
+</section>
+
+{% include cta.html %}

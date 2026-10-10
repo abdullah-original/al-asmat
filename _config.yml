@@ -1,0 +1,29 @@
+title: Al Asmat Sportswear
+tagline: Custom Sportswear Manufacturer — OEM & Private Label
+description: >-
+  B2B manufacturer & exporter of custom golf apparel, team kits and premium
+  sportswear from Sialkot, Pakistan. Export-ready bulk production.
+url: "" # e.g. https://alasmat84.com or https://<user>.github.io
+baseurl: "" # e.g. /al-asmat when hosted at <user>.github.io/al-asmat
+
+company:
+  name: Al Asmat Garments & Sportswear
+  email: info@alasmat84.com
+  phone: "+92 330 6540006"
+  phone_raw: "+923306540006"
+  whatsapp: "923306540006"
+  address: Pakka Garha Ghumman, Sialkot 51310, Pakistan
+  instagram: https://www.instagram.com/al_asmat_84/
+
+# Optional: paste a Formspree form ID (https://formspree.io) to receive quote
+# requests by email. Leave empty to send requests via WhatsApp / email instead.
+formspree_id: ""
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

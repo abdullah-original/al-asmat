@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Cricket Kit",
+    "slug": "cricket-kit",
+    "image": "/assets/images/cat-cricket.jpg"
+  },
+  {
+    "name": "Football Kit",
+    "slug": "football-kit",
+    "image": "/assets/images/cat-football.jpg"
+  },
+  {
+    "name": "Rugby Kit",
+    "slug": "rugby-kit",
+    "image": "/assets/images/cat-rugby.jpg"
+  },
+  {
+    "name": "Netball Kit",
+    "slug": "netball-kit",
+    "image": "/assets/images/cat-netball.jpg"
+  },
+  {
+    "name": "Golf Kit",
+    "slug": "golf-kit",
+    "image": "/assets/images/cat-golf.jpg"
+  },
+  {
+    "name": "Handball Kit",
+    "slug": "handball-kit",
+    "image": "/assets/images/cat-handball.jpg"
+  },
+  {
+    "name": "Active Wear",
+    "slug": "active-wear",
+    "image": "/assets/images/cat-activewear.jpg"
+  },
+  {
+    "name": "Outer Wear",
+    "slug": "outer-wear",
+    "image": "/assets/images/cat-outerwear.jpg"
+  },
+  {
+    "name": "Caps & Hats",
+    "slug": "caps-hats",
+    "image": "/assets/images/cat-caps.jpg"
+  },
+  {
+    "name": "Bras",
+    "slug": "bras",
+    "image": "/assets/images/cat-bras.jpg"
+  }
+]

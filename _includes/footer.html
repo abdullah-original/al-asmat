@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand brand--light" href="{{ '/' | relative_url }}">
+        <span class="brand__mark"><img src="{{ '/assets/images/al-asmat-logo.png' | relative_url }}" alt="" width="28" height="28"></span>
+        <span class="brand__text">Al Asmat<small>Sportswear</small></span>
+      </a>
+      <p class="footer-about">Premium sportswear manufacturer based in Sialkot, Pakistan. Trusted by brands worldwide for quality custom sportswear.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="{{ '/catalogue/' | relative_url }}">Catalogue</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        <li><a href="{{ '/quote/' | relative_url }}">Request a Quote</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get in touch</h4>
+      <ul>
+        <li>{{ site.company.address }}</li>
+        <li><a href="tel:{{ site.company.phone_raw }}">{{ site.company.phone }}</a></li>
+        <li><a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a></li>
+        <li><a href="{{ site.company.instagram }}" target="_blank" rel="noopener">Instagram</a> · <a href="https://wa.me/{{ site.company.whatsapp }}" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© {{ 'now' | date: '%Y' }} {{ site.company.name }}</span>
+    <span>OEM &amp; Private Label · Made in Sialkot</span>
+  </div>
+</footer>

@@ -1,0 +1,25 @@
+<div class="topbar">
+  <div class="container topbar__inner">
+    <span>{{ site.tagline }} · Sialkot, Pakistan</span>
+    <span class="topbar__links">
+      <a href="tel:{{ site.company.phone_raw }}">{{ site.company.phone }}</a>
+      <a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a>
+    </span>
+  </div>
+</div>
+<header class="site-header" id="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <span class="brand__mark"><img src="{{ '/assets/images/al-asmat-logo.png' | relative_url }}" alt="" width="28" height="28"></span>
+      <span class="brand__text">Al Asmat<small>Sportswear</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <a href="{{ '/catalogue/' | relative_url }}" {% if page.url == '/catalogue/' %}aria-current="page"{% endif %}>Catalogue</a>
+      <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a>
+      <a class="btn btn--primary btn--sm" href="{{ '/quote/' | relative_url }}">Request a Quote</a>
+    </nav>
+  </div>
+</header>

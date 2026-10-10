@@ -1,0 +1,33 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+description: Get a custom sportswear quote from Al Asmat in Sialkot, Pakistan. WhatsApp, email or web form — we reply within 24 hours.
+---
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Contact us</p>
+    <h1>Let's talk about your next order.</h1>
+    <p class="lead">Whether you need a small batch or a large bulk order, we're here to help. We reply within 24 hours.</p>
+  </div>
+</section>
+
+<section class="section section--flush">
+  <div class="container contact-grid">
+    <div>
+      <ul class="contact-list">
+        <li><span>Address</span>{{ site.company.address }}</li>
+        <li><span>Phone</span><a href="tel:{{ site.company.phone_raw }}">{{ site.company.phone }}</a></li>
+        <li><span>Email</span><a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a></li>
+        <li><span>Instagram</span><a href="{{ site.company.instagram }}" target="_blank" rel="noopener">@al_asmat_84</a></li>
+      </ul>
+      <div class="actions">
+        <a class="btn btn--primary" href="https://wa.me/{{ site.company.whatsapp }}" target="_blank" rel="noopener">{% include icon-whatsapp.html %} Chat on WhatsApp</a>
+        <a class="btn btn--ghost" href="{{ '/quote/' | relative_url }}">Request a Quote</a>
+      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps?q=Pakka+Garha+Ghumman,+Sialkot+51310,+Pakistan&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Al Asmat factory location in Sialkot, Pakistan" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
