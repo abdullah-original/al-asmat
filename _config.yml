@@ -3,8 +3,8 @@ tagline: Custom Sportswear Manufacturer — OEM & Private Label
 description: >-
   B2B manufacturer & exporter of custom golf apparel, team kits and premium
   sportswear from Sialkot, Pakistan. Export-ready bulk production.
-url: "" # e.g. https://alasmat84.com or https://<user>.github.io
-baseurl: "" # e.g. /al-asmat when hosted at <user>.github.io/al-asmat
+url: "https://abdullah-original.github.io" # change to https://alasmat84.com with a custom domain
+baseurl: "/al-asmat" # set to "" when using a custom domain
 
 company:
   name: Al Asmat Garments & Sportswear
